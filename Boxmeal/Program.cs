@@ -22,11 +22,11 @@ namespace Boxmeal
 
             string answerUser = Console.ReadLine();
 
-            if(answerUser.Contains("a"))
+            if (answerUser == "a")
             {
                 WP("Dieta wygląda następująco:");
             }
-            else if(answerUser.Contains("b"))
+            else if (answerUser == "b")
             {
                 W("Lista dostępnych skłaników:");
 
@@ -35,7 +35,7 @@ namespace Boxmeal
             }
             else
             {
-                W("Nie ma takiej odpowiedzi");
+                W("Nie ma takiej odpowiedzi lub po prostu wpisałeś jakieś głupoty");
             }
 
             Console.ReadLine();

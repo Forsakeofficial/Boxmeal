@@ -1,33 +1,27 @@
 {
   {
-
-
     "Id": 1,
     "Category": "Przystawka",
     "Calories": 20,
     "Price": 4,
     "Name": "Jajko",
-    "Vegetarian": true,
-    [
-
-
-    ]
-  }
+    "Vegetarian": true
+    }
   {
     "Id": 2,
     "Category": "Glowne",
     "Calories": 30,
     "Price": 6,
     "Name": "Boczek",
-    "Vegetarian": false,
+    "Vegetarian": false
   }
   {
-    "Id": 3,
-    "Category": "Deser",
+    "Id": 3 ,
+    "Category": "Deser" ,
     "Calories": 30,
     "Price": 2,
     "Name": "Jogurt",
-    "Vegetarian": true,
+    "Vegetarian": true
   }
   {
     "Id": 4,
