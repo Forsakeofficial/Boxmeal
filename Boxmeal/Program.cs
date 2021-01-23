@@ -45,7 +45,7 @@ namespace Boxmeal
         static void FirstQuestion(Questions question)
         {
             WP("Co chcesz zrobić?");
-            W("a - zamówić dięte");
+            W("a - zamówić dietę");
             W("b - wyświetlić dostępne składniki");
             WP("");
         }

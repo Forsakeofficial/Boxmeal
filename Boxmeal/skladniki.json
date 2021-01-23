@@ -1,0 +1,79 @@
+{
+  {
+
+
+    "Id": 1,
+    "Category": "Przystawka",
+    "Calories": 20,
+    "Price": 4,
+    "Name": "Jajko",
+    "Vegetarian": true,
+    [
+
+
+    ]
+  }
+  {
+    "Id": 2,
+    "Category": "Glowne",
+    "Calories": 30,
+    "Price": 6,
+    "Name": "Boczek",
+    "Vegetarian": false,
+  }
+  {
+    "Id": 3,
+    "Category": "Deser",
+    "Calories": 30,
+    "Price": 2,
+    "Name": "Jogurt",
+    "Vegetarian": true,
+  }
+  {
+    "Id": 4,
+    "Category": "Przystawka",
+    "Calories": 15,
+    "Price": 4,
+    "Name": "Kapusta",
+    "Vegetarian": true
+  }
+  {
+    "Id": 5,
+    "Category": "Glowne",
+    "Calories": 30,
+    "Price": 6,
+    "Name": "Szynka",
+    "Vegetarian": false
+  }
+  {
+    "Id": 6,
+    "Category": "Deser",
+    "Calories": 50,
+    "Price": 4,
+    "Name": "Batonik",
+    "Vegetarian": true
+  }
+  {
+    "Id": 7,
+    "Category": "Przystawka",
+    "Calories": 20,
+    "Price": 4,
+    "Name": "Kie³ki",
+    "Vegetarian": true
+  }
+  {
+    "Id": 8,
+    "Category": "Glowne",
+    "Calories": 80,
+    "Price": 7,
+    "Name": "Kurczak",
+    "Vegetarian": false
+  }
+  {
+    "Id": 9,
+    "Category": "Deser",
+    "Calories": 80,
+    "Price": 7,
+    "Name": "Cistko",
+    "Vegetarian": true
+  }
