@@ -43,7 +43,5 @@ namespace Boxmeal.Backend
             
             Baza = JsonConvert.DeserializeObject<List<Product>>(tekstPliku);
         }
-
-
     }
 }
