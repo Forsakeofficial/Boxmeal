@@ -28,20 +28,16 @@ namespace Boxmeal.Backend
 
 
         // to poniżej skopiowałem od wykładowcy (żeby korzystać z jsona do przechowywania składników), pozmieniałem nazwy na właściwe do naszego boxmeala, 
-        // ale chyba coś tu jeszcze trzeba poprawić
+        // ale chyba coś tu jeszcze trzeba poprawić, bo niby działa, ale nie wiem co dalej z tym
 
 
-        public List<Product> Baza { get; set; }
+        public List<Product> AllProducts { get; set; }
 
-        private void UtworzBazeProduktow()
+        private void CreateBase()
         {
-            
-
-            string sciezkaDoSkladnikow = $"{Directory.GetCurrentDirectory()}\\skladniki.json";
-
-            string tekstPliku = File.ReadAllText(sciezkaDoSkladnikow);
-            
-            Baza = JsonConvert.DeserializeObject<List<Product>>(tekstPliku);
+            var ToFilePatch = $"{Directory.GetCurrentDirectory()}\\skladniki.json";
+            var JsonContent = File.ReadAllText(ToFilePatch);      
+            AllProducts = JsonConvert.DeserializeObject<List<Product>>(JsonContent);
         }
     }
 }

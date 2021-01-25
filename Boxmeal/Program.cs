@@ -77,6 +77,7 @@ namespace Boxmeal
                 W("Lista dostępnych skłaników:");
 
                 Product products = ListProducts.Item();
+
                 products.WriteProduct();
             }
             else
