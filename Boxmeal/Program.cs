@@ -86,11 +86,8 @@ namespace Boxmeal
             }
 
             Console.ReadLine();
-
+          //  Console.WriteLine(ListProducts.AllProducts); <- nie działa i nie ogarniam tego już
         }
-
-
-
 
 
 
