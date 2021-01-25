@@ -19,16 +19,15 @@ namespace Boxmeal
 
             FirstQuestion(question);
 
-
             string answerUser = Console.ReadLine();
 
             if (answerUser == "a")
             {
-                WP("okej");
+                WP("Wybrałeś opcję zamówienia diety");
                 SecondQuestion(question);
 
                 string answerUser_2 = Console.ReadLine();
-                int kalorie;
+                int kalorie=0;
                      switch (answerUser_2)
                     {
                     case "a":
@@ -47,16 +46,31 @@ namespace Boxmeal
                         kalorie = 3000;
                         break;
                     default:
-                        Console.WriteLine("Podałeś znak z poza zakresu odpowiedzi, program nie zadziała poprawnie");
+                        Console.WriteLine("Podałeś znak inny niż a, b, c, d lub e - program nie zadziała poprawnie");
                         break;
                     }
                 // trzeba będzie coś zrobić, żeby tego inta "kalorie" móc wykorzystać do generowania tej diety, ale nie ogarniam za bardzo jak 
+                // poniżej wydruk kontrolny
+                Console.WriteLine("Wybrałeś opcję: " + kalorie + " cal");
 
                 ThirdQuestion(question);
-                Console.ReadLine();
-
-                //trzeba dodać, żeby przetworzyło odpowiedź użytkownika i użyć jej potem do generowania, ale to już nie dzisiaj, bo na dziś mam już dosyć tego syfu...
-
+                string answerUser_3 = Console.ReadLine();
+                bool vege=false;
+                if (answerUser_3 == "t")
+                {
+                    vege = true;
+                }
+                else if (answerUser_3 == "n")
+                {
+                    vege = false;
+                }
+                else
+                {
+                    Console.WriteLine("Podałeś inny znak niż n lub t - program nie zadziała poprawnie");
+                }
+                // trzeba będzie potem użyć tej zmiennej "vege" do określenia rodzaju diety
+                // poniżej wydruk kontrolny
+                Console.WriteLine("Wybrałeś opcję vege: " + vege);
             }
             else if (answerUser == "b")
             {
@@ -67,12 +81,19 @@ namespace Boxmeal
             }
             else
             {
-                W("Nie ma takiej odpowiedzi lub po prostu wpisałeś jakieś głupoty");
+                W("Podałeś znak inny niż a lub b - program nie zadziała poprawnie");
             }
 
             Console.ReadLine();
 
         }
+
+
+
+
+
+
+
 
         static void FirstQuestion(Questions question)
         {
