@@ -17,6 +17,9 @@ namespace Boxmeal
 
             Questions question = new Questions();
 
+            ListProducts MyList = new ListProducts();
+            MyList.CreateBase();
+
             FirstQuestion(question);
 
             string answerUser = Console.ReadLine();
@@ -76,9 +79,9 @@ namespace Boxmeal
             {
                 W("Lista dostępnych skłaników:");
 
-                Product products = ListProducts.Item();
-
-                products.WriteProduct();
+                //Product products = ListProducts.Item();
+                MyList.WriteAllProducts();
+                //products.WriteProduct();
             }
             else
             {
@@ -86,7 +89,7 @@ namespace Boxmeal
             }
 
             Console.ReadLine();
-          //  Console.WriteLine(ListProducts.AllProducts); <- nie działa i nie ogarniam tego już
+       
         }
 
 

@@ -33,11 +33,20 @@ namespace Boxmeal.Backend
 
         public List<Product> AllProducts { get; set; }
 
-        private void CreateBase()
+        public void CreateBase()
         {
             var ToFilePatch = $"{Directory.GetCurrentDirectory()}\\skladniki.json";
             var JsonContent = File.ReadAllText(ToFilePatch);      
             AllProducts = JsonConvert.DeserializeObject<List<Product>>(JsonContent);
         }
+
+
+        public void WriteAllProducts()
+        {
+            foreach (Product actual in AllProducts)
+                actual.WriteProduct();
+
+        }
+
     }
 }
