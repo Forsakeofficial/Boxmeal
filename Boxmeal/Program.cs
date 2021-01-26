@@ -17,17 +17,21 @@ namespace Boxmeal
 
             Questions question = new Questions();
 
+            //to poniżej jest potrzebne do wyświetlania tego jsona ze składnikami
             ListProducts MyList = new ListProducts();
             MyList.CreateBase();
 
-            FirstQuestion(question);
+            //poniżej zmienna potrzebna do tego, żeby program możnabyło cofać do początku
+            string ReloadApk = "";
 
-            //poniżej zmienna, która zostanie użyta, żeby program był idiotoodporny - jak poda inny znak niżwymagany, to program dalej nie pójdzie
-            bool ErrorIdiot = false;
+            //poniżej etykieta, żeby móc wykonać program ponownie
+            StartOfProgram:
+
+            FirstQuestion(question);
 
             string answerUser = Console.ReadLine();
 
-            if (answerUser == "a")
+            if (answerUser == "a" || answerUser =="A")
             {
                 WP("Wybrałeś opcję zamówienia diety...");
                 SecondQuestion(question);
@@ -52,20 +56,12 @@ namespace Boxmeal
                     case "e": case "E":
                         kalorie = 3000;
                         break;
-                    //test goto czy dobrze działa, potem usunąć to poniżej
-                    case "Exit":
-                        goto EndOfProgram;
-
-                    //test, potem usunąć to powyżej
                     default:
                         Console.WriteLine("Podałeś znak inny niż a, b, c, d lub e - program nie zadziała poprawnie");
-                        ErrorIdiot = true;
-                        break;
+                        goto EndOfProgram;
                     }
                 // trzeba będzie coś zrobić, żeby tego inta "kalorie" móc wykorzystać do generowania tej diety, ale nie ogarniam za bardzo jak 
 
-                if (ErrorIdiot == false)
-                {
                     ThirdQuestion(question);
                     string answerUser_3 = Console.ReadLine();
                     bool vege = false;
@@ -79,18 +75,14 @@ namespace Boxmeal
                             break;
                         default:
                             Console.WriteLine("Podałeś inny znak niż n lub t - program nie zadziała poprawnie");
-                            ErrorIdiot = true;
-                            break;
+                            goto EndOfProgram;
                     }
-                    // trzeba będzie potem użyć tej zmiennej "vege" do określenia rodzaju diety
+                // trzeba będzie potem użyć tej zmiennej "vege" do określenia rodzaju diety
 
-                    // poniżej wydruk kontrolny (wymagany w zadaniu)
-                    if (ErrorIdiot == false)
-                    {
+                // poniżej wydruk kontrolny (wymagany w zadaniu)
                         if (vege == true)
                         {
                             Console.WriteLine("Wybrałeś opcję: " + kalorie + " cal, WEGETARIAŃSKA");
-
                         }
                         else
                         {
@@ -113,15 +105,24 @@ namespace Boxmeal
                         }
                         else if (answerUser_4 == "n" || answerUser_4 == "N")
                         {
-                            W("Well, shall we start again? ;)");
+                            W("Czy chcesz zacząć od nowa? (T/N)");
+                            ReloadApk = Console.ReadLine();
+                            if (ReloadApk == "T" || ReloadApk == "t")
+                            {
+                                goto StartOfProgram; 
+                            }
+                            else
+                            {
+                                goto EndOfProgram; 
+                            }
                         }
                         else
                         {
-                            W("Podałeś znam inny niż t lub n - program nie zadziała poprawnie");
-                            ErrorIdiot = true;
+                            W("Podałeś znak inny niż t lub n - program nie zadziała poprawnie");
+                            goto EndOfProgram;
                         }
-                    }
-                }
+                    
+                
             }
             else if (answerUser == "b" || answerUser == "B")
             {
@@ -130,24 +131,45 @@ namespace Boxmeal
 
                 
                 MyList.WriteAllProducts();
+
+                //poniżej zakomentowany stary kod Kuby
                 //Product products = ListProducts.Item();
                 //products.WriteProduct();
+                W("");
+                W("    Załadować program ponownie? (t/n)");
+                ReloadApk = Console.ReadLine();
+                if (ReloadApk == "t" || ReloadApk == "T")
+                {
+                    goto StartOfProgram;
+                }
+                else if (ReloadApk == "n" || ReloadApk == "N")
+                {
+                    goto EndOfProgram;
+                }
+                else
+                {
+                    W("Podałeś inny znak niż t lub n - program się wywali");
+                    goto EndOfProgram;
+                }
+
             }
             else
             {
                 W("Podałeś znak inny niż a lub b - program nie zadziała poprawnie");
-                ErrorIdiot = true;
+                goto EndOfProgram;
             }
 
 
             //poniżej dałem etykietkę EndOfProgram, żeby dało się zakończyć program w dowolnym miejscu robiąc "goto EndOfProgram"
             EndOfProgram:
 
+            W("Dziękujemy za skorzystanie z naszego programu");
             Console.ReadLine();
-            
-            
-       
+        
         }
+
+
+
 
         static void FirstQuestion(Questions question)
         {
