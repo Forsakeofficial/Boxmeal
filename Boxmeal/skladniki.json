@@ -24,16 +24,112 @@
     "Vegetarian": true
   },
   {
+    "Id": 4,
+    "Category": "Przystawka",
+    "Calories": 118,
+    "Price": 4,
+    "Name": "'Groszek'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 5,
+    "Category": "Przystawka",
+    "Calories": 74,
+    "Price": 4,
+    "Name": "'Zupa pomidorowa'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 6,
+    "Category": "Przystawka",
+    "Calories": 164,
+    "Price": 4,
+    "Name": "'Zupa ogórkowa'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 7,
+    "Category": "Przystawka",
+    "Calories": 112,
+    "Price": 3,
+    "Name": "'Batat'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 8,
+    "Category": "Przystawka",
+    "Calories": 49,
+    "Price": 4,
+    "Name": "'Ogórek'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 9,
+    "Category": "Przystawka",
+    "Calories": 41,
+    "Price": 3,
+    "Name": "'Pomidor'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 10,
+    "Category": "Przystawka",
+    "Calories": 57,
+    "Price": 4,
+    "Name": "'Papryka czerwona'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 11,
+    "Category": "Przystawka",
+    "Calories": 94,
+    "Price": 7,
+    "Name": "'Tofu'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 12,
+    "Category": "Przystawka",
+    "Calories": 63,
+    "Price": 3,
+    "Name": "'Marchew'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 13,
+    "Category": "Przystawka",
+    "Calories": 78,
+    "Price": 6,
+    "Name": "'Pieczarki'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 14,
+    "Category": "Przystawka",
+    "Calories": 379,
+    "Price": 4,
+    "Name": "'P³atki owsiane'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 15,
+    "Category": "Przystawka",
+    "Calories": 212,
+    "Price": 6,
+    "Name": "'Brukselka'",
+    "Vegetarian": true
+  },
+  {
     "Id": 16,
-    "Category": "Glowne",
-    "Calories": 541,
+    "Category": "G³ówne",
+    "Calories": 499,
     "Price": 6,
     "Name": "'Boczek'",
     "Vegetarian": false
   },
   {
     "Id": 17,
-    "Category": "Glowne",
+    "Category": "G³ówne",
     "Calories": 203,
     "Price": 6,
     "Name": "'Szynka'",
@@ -41,11 +137,107 @@
   },
   {
     "Id": 18,
-    "Category": "Glowne",
+    "Category": "G³ówne",
     "Calories": 335,
     "Price": 9,
     "Name": "'Kurczak'",
     "Vegetarian": false
+  },
+  {
+    "Id": 19,
+    "Category": "G³ówne",
+    "Calories": 296,
+    "Price": 8,
+    "Name": "'Nuggetsy z kurczaka'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 20,
+    "Category": "G³ówne",
+    "Calories": 208,
+    "Price": 5,
+    "Name": "'Ziemniaki ze szpinakiem'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 21,
+    "Category": "G³ówne",
+    "Calories": 336,
+    "Price": 7,
+    "Name": "'Jajecznica (z 4 jaj)'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 22,
+    "Category": "G³ówne",
+    "Calories": 471,
+    "Price": 10,
+    "Name": "'Indyk'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 23,
+    "Category": "G³ówne",
+    "Calories": 500,
+    "Price": 11,
+    "Name": "'Kebab ma³y'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 24,
+    "Category": "G³ówne",
+    "Calories": 214,
+    "Price": 5,
+    "Name": "'Puree'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 25,
+    "Category": "G³ówne",
+    "Calories": 306,
+    "Price": 7,
+    "Name": "'Makaron ze szpinakiem'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 26,
+    "Category": "G³ówne",
+    "Calories": 241,
+    "Price": 11,
+    "Name": "'Kotlet mielony'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 27,
+    "Category": "G³ówne",
+    "Calories": 496,
+    "Price": 15,
+    "Name": "'Sznycel'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 28,
+    "Category": "G³ówne",
+    "Calories": 441,
+    "Price": 14,
+    "Name": "'Schab grillowany'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 29,
+    "Category": "G³ówne",
+    "Calories": 209,
+    "Price": 9,
+    "Name": "'Broku³y gotowane z mas³em'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 30,
+    "Category": "G³ówne",
+    "Calories": 307,
+    "Price": 10,
+    "Name": "'Ry¿ z warzywami'",
+    "Vegetarian": true
   },
   {
     "Id": 31,
@@ -162,23 +354,9 @@
   {
     "Id": 45,
     "Category": "Deser",
-    "Calories": 104,
-    "Price": 5,
-    "Name": "'Winogrona jasne'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 46,
-    "Category": "Deser",
     "Calories": 299,
     "Price": 7,
     "Name": "'Rodzynki'",
     "Vegetarian": true
   }
-
-
-
-
-
-
 ]

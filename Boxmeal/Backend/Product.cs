@@ -20,7 +20,7 @@ namespace Boxmeal.Backend
 
         public void WriteProduct()
         {
-            Console.WriteLine(String.Format("{0} {1} {2} {3} {4} {5}", this.Id, this.Category, this.Name, this.Calories, this.Price, this.Vegetarian));
+            Console.WriteLine(String.Format("{0}. {1} ({2}), {3} cal, {4} PLN, WEGETARIAŃSKIE: {5}", this.Id, this.Name, this.Category, this.Calories, this.Price, this.Vegetarian));
         }
     }
 }
