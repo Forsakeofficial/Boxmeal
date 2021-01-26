@@ -2,73 +2,183 @@
   {
     "Id": 1,
     "Category": "Przystawka",
-    "Calories": 20,
+    "Calories": 155,
     "Price": 4,
-    "Name": "Jajko",
+    "Name": "'Jajko'",
     "Vegetarian": true
   },
   {
     "Id": 2,
-    "Category": "Glowne",
-    "Calories": 30,
-    "Price": 6,
-    "Name": "Boczek",
-    "Vegetarian": false
+    "Category": "Przystawka",
+    "Calories": 120,
+    "Price": 4,
+    "Name": "'Kapusta bia³a'",
+    "Vegetarian": true
   },
   {
     "Id": 3,
-    "Category": "Deser",
-    "Calories": 30,
-    "Price": 2,
-    "Name": "Jogurt",
-    "Vegetarian": true
-  },
-  {
-    "Id": 4,
     "Category": "Przystawka",
-    "Calories": 15,
+    "Calories": 84,
     "Price": 4,
-    "Name": "Kapusta",
+    "Name": "'Kie³ki'",
     "Vegetarian": true
   },
   {
-    "Id": 5,
+    "Id": 16,
     "Category": "Glowne",
-    "Calories": 30,
+    "Calories": 541,
     "Price": 6,
-    "Name": "Szynka",
+    "Name": "'Boczek'",
     "Vegetarian": false
   },
   {
-    "Id": 6,
-    "Category": "Deser",
-    "Calories": 50,
-    "Price": 4,
-    "Name": "Batonik",
-    "Vegetarian": true
-  },
-  {
-    "Id": 7,
-    "Category": "Przystawka",
-    "Calories": 20,
-    "Price": 4,
-    "Name": "Kie³ki",
-    "Vegetarian": true
-  },
-  {
-    "Id": 8,
+    "Id": 17,
     "Category": "Glowne",
-    "Calories": 80,
-    "Price": 7,
-    "Name": "Kurczak",
+    "Calories": 203,
+    "Price": 6,
+    "Name": "'Szynka'",
     "Vegetarian": false
   },
   {
-    "Id": 9,
+    "Id": 18,
+    "Category": "Glowne",
+    "Calories": 335,
+    "Price": 9,
+    "Name": "'Kurczak'",
+    "Vegetarian": false
+  },
+  {
+    "Id": 31,
     "Category": "Deser",
-    "Calories": 80,
+    "Calories": 70,
+    "Price": 2,
+    "Name": "'Jogurt Naturalny'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 32,
+    "Category": "Deser",
+    "Calories": 522,
+    "Price": 5,
+    "Name": "'Batonik Candy Bar'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 33,
+    "Category": "Deser",
+    "Calories": 502,
     "Price": 7,
-    "Name": "Cistko",
+    "Name": "'Ciastka'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 34,
+    "Category": "Deser",
+    "Calories": 147,
+    "Price": 4,
+    "Name": "'Banan'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 35,
+    "Category": "Deser",
+    "Calories": 205,
+    "Price": 7,
+    "Name": "'Mango'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 36,
+    "Category": "Deser",
+    "Calories": 414,
+    "Price": 8,
+    "Name": "'Daktyle suszone'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 37,
+    "Category": "Deser",
+    "Calories": 64,
+    "Price": 4,
+    "Name": "'Brzoskwinia'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 38,
+    "Category": "Deser",
+    "Calories": 91,
+    "Price": 4,
+    "Name": "'Pomarañcza'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 39,
+    "Category": "Deser",
+    "Calories": 252,
+    "Price": 5,
+    "Name": "'Figi suszone'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 40,
+    "Category": "Deser",
+    "Calories": 82,
+    "Price": 8,
+    "Name": "'Ananas'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 41,
+    "Category": "Deser",
+    "Calories": 97,
+    "Price": 5,
+    "Name": "'Jogurt owocowy'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 42,
+    "Category": "Deser",
+    "Calories": 233,
+    "Price": 7,
+    "Name": "'Granat'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'Mandarynki'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'Winogrona ciemne'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'Winogrona jasne'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 46,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'Rodzynki'",
     "Vegetarian": true
   }
+
+
+
+
+
+
 ]

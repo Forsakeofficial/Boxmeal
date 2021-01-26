@@ -72,15 +72,17 @@ namespace Boxmeal
                     Console.WriteLine("Podałeś inny znak niż n lub t - program nie zadziała poprawnie");
                 }
                 // trzeba będzie potem użyć tej zmiennej "vege" do określenia rodzaju diety
-                // poniżej wydruk kontrolny
+                // poniżej wydruk kontrolny, na koniec można go usunąć
                 Console.WriteLine("Wybrałeś opcję vege: " + vege);
             }
             else if (answerUser == "b")
             {
                 W("Lista dostępnych skłaników:");
+                W("[lp.] [kategoria] [nazwa produktu] [kaloryczność] [cena] [vege?]");
 
-                //Product products = ListProducts.Item();
+                
                 MyList.WriteAllProducts();
+                //Product products = ListProducts.Item();
                 //products.WriteProduct();
             }
             else
