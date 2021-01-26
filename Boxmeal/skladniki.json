@@ -4,7 +4,7 @@
     "Category": "Przystawka",
     "Calories": 155,
     "Price": 4,
-    "Name": "'Jajko'",
+    "Name": " 'JAJKO'",
     "Vegetarian": true
   },
   {
@@ -12,7 +12,7 @@
     "Category": "Przystawka",
     "Calories": 120,
     "Price": 4,
-    "Name": "'Kapusta bia³a'",
+    "Name": " 'KAPUSTA BIA£A'",
     "Vegetarian": true
   },
   {
@@ -20,7 +20,7 @@
     "Category": "Przystawka",
     "Calories": 84,
     "Price": 4,
-    "Name": "'Kie³ki'",
+    "Name": " 'KIE£KI'",
     "Vegetarian": true
   },
   {
@@ -28,7 +28,7 @@
     "Category": "Przystawka",
     "Calories": 118,
     "Price": 4,
-    "Name": "'Groszek'",
+    "Name": " 'GROSZEK'",
     "Vegetarian": true
   },
   {
@@ -36,7 +36,7 @@
     "Category": "Przystawka",
     "Calories": 74,
     "Price": 4,
-    "Name": "'Zupa pomidorowa'",
+    "Name": " 'ZUPA POMIDOROWA'",
     "Vegetarian": true
   },
   {
@@ -44,7 +44,7 @@
     "Category": "Przystawka",
     "Calories": 164,
     "Price": 4,
-    "Name": "'Zupa ogórkowa'",
+    "Name": " 'ZUPA OGÓRKOWA'",
     "Vegetarian": true
   },
   {
@@ -52,7 +52,7 @@
     "Category": "Przystawka",
     "Calories": 112,
     "Price": 3,
-    "Name": "'Batat'",
+    "Name": " 'BATAT'",
     "Vegetarian": true
   },
   {
@@ -60,7 +60,7 @@
     "Category": "Przystawka",
     "Calories": 49,
     "Price": 4,
-    "Name": "'Ogórek'",
+    "Name": " 'OGÓREK'",
     "Vegetarian": true
   },
   {
@@ -68,7 +68,7 @@
     "Category": "Przystawka",
     "Calories": 41,
     "Price": 3,
-    "Name": "'Pomidor'",
+    "Name": " 'POMIDOR'",
     "Vegetarian": true
   },
   {
@@ -76,7 +76,7 @@
     "Category": "Przystawka",
     "Calories": 57,
     "Price": 4,
-    "Name": "'Papryka czerwona'",
+    "Name": "'PAPRYKA CZERWONA'",
     "Vegetarian": true
   },
   {
@@ -84,7 +84,7 @@
     "Category": "Przystawka",
     "Calories": 94,
     "Price": 7,
-    "Name": "'Tofu'",
+    "Name": "'TOFU'",
     "Vegetarian": true
   },
   {
@@ -92,7 +92,7 @@
     "Category": "Przystawka",
     "Calories": 63,
     "Price": 3,
-    "Name": "'Marchew'",
+    "Name": "'MARCHEW'",
     "Vegetarian": true
   },
   {
@@ -100,7 +100,7 @@
     "Category": "Przystawka",
     "Calories": 78,
     "Price": 6,
-    "Name": "'Pieczarki'",
+    "Name": "'PIECZARKI'",
     "Vegetarian": true
   },
   {
@@ -108,15 +108,15 @@
     "Category": "Przystawka",
     "Calories": 379,
     "Price": 4,
-    "Name": "'P³atki owsiane'",
-    "Vegetarian": false
+    "Name": "'P£ATKI OWSIANE'",
+    "Vegetarian": true
   },
   {
     "Id": 15,
     "Category": "Przystawka",
     "Calories": 212,
     "Price": 6,
-    "Name": "'Brukselka'",
+    "Name": "'BRUKSELKA'",
     "Vegetarian": true
   },
   {
@@ -124,7 +124,7 @@
     "Category": "G³ówne",
     "Calories": 499,
     "Price": 6,
-    "Name": "'Boczek'",
+    "Name": "'BOCZEK'",
     "Vegetarian": false
   },
   {
@@ -132,7 +132,7 @@
     "Category": "G³ówne",
     "Calories": 203,
     "Price": 6,
-    "Name": "'Szynka'",
+    "Name": "'SZYNKA'",
     "Vegetarian": false
   },
   {
@@ -140,7 +140,7 @@
     "Category": "G³ówne",
     "Calories": 335,
     "Price": 9,
-    "Name": "'Kurczak'",
+    "Name": "'KURCZAK'",
     "Vegetarian": false
   },
   {
@@ -148,15 +148,15 @@
     "Category": "G³ówne",
     "Calories": 296,
     "Price": 8,
-    "Name": "'Nuggetsy z kurczaka'",
-    "Vegetarian": true
+    "Name": "'NUGGETSY'",
+    "Vegetarian": false
   },
   {
     "Id": 20,
     "Category": "G³ówne",
     "Calories": 208,
     "Price": 5,
-    "Name": "'Ziemniaki ze szpinakiem'",
+    "Name": "'ZIEMNIAKI ZE SZPINAKIEM'",
     "Vegetarian": true
   },
   {
@@ -164,7 +164,7 @@
     "Category": "G³ówne",
     "Calories": 336,
     "Price": 7,
-    "Name": "'Jajecznica (z 4 jaj)'",
+    "Name": "'JAJECZNICA'",
     "Vegetarian": true
   },
   {
@@ -172,7 +172,7 @@
     "Category": "G³ówne",
     "Calories": 471,
     "Price": 10,
-    "Name": "'Indyk'",
+    "Name": "'INDYK'",
     "Vegetarian": false
   },
   {
@@ -180,7 +180,7 @@
     "Category": "G³ówne",
     "Calories": 500,
     "Price": 11,
-    "Name": "'Kebab ma³y'",
+    "Name": "'KEBAB MA£Y'",
     "Vegetarian": false
   },
   {
@@ -188,7 +188,7 @@
     "Category": "G³ówne",
     "Calories": 214,
     "Price": 5,
-    "Name": "'Puree'",
+    "Name": "'PUREE'",
     "Vegetarian": true
   },
   {
@@ -196,7 +196,7 @@
     "Category": "G³ówne",
     "Calories": 306,
     "Price": 7,
-    "Name": "'Makaron ze szpinakiem'",
+    "Name": "'MAKARON ZE SZPINAKIEM'",
     "Vegetarian": true
   },
   {
@@ -204,7 +204,7 @@
     "Category": "G³ówne",
     "Calories": 241,
     "Price": 11,
-    "Name": "'Kotlet mielony'",
+    "Name": "'KOTLET MIELONY'",
     "Vegetarian": false
   },
   {
@@ -212,7 +212,7 @@
     "Category": "G³ówne",
     "Calories": 496,
     "Price": 15,
-    "Name": "'Sznycel'",
+    "Name": "'SZNYCEL'",
     "Vegetarian": false
   },
   {
@@ -220,7 +220,7 @@
     "Category": "G³ówne",
     "Calories": 441,
     "Price": 14,
-    "Name": "'Schab grillowany'",
+    "Name": "'SCHAB GRILLOWANY'",
     "Vegetarian": false
   },
   {
@@ -228,7 +228,7 @@
     "Category": "G³ówne",
     "Calories": 209,
     "Price": 9,
-    "Name": "'Broku³y gotowane z mas³em'",
+    "Name": "'BROKU£Y Z MAS£EM'",
     "Vegetarian": true
   },
   {
@@ -236,7 +236,7 @@
     "Category": "G³ówne",
     "Calories": 307,
     "Price": 10,
-    "Name": "'Ry¿ z warzywami'",
+    "Name": "'RY¯ Z WARZYWAMI'",
     "Vegetarian": true
   },
   {
@@ -244,7 +244,7 @@
     "Category": "Deser",
     "Calories": 70,
     "Price": 2,
-    "Name": "'Jogurt Naturalny'",
+    "Name": "'JOGURT NATURALNY'",
     "Vegetarian": true
   },
   {
@@ -252,7 +252,7 @@
     "Category": "Deser",
     "Calories": 522,
     "Price": 5,
-    "Name": "'Batonik Candy Bar'",
+    "Name": "'BATONIK CANDY BAR'",
     "Vegetarian": true
   },
   {
@@ -260,7 +260,7 @@
     "Category": "Deser",
     "Calories": 502,
     "Price": 7,
-    "Name": "'Ciastka'",
+    "Name": "'CIASTKA'",
     "Vegetarian": true
   },
   {
@@ -268,7 +268,7 @@
     "Category": "Deser",
     "Calories": 147,
     "Price": 4,
-    "Name": "'Banan'",
+    "Name": "'BANAN'",
     "Vegetarian": true
   },
   {
@@ -276,7 +276,7 @@
     "Category": "Deser",
     "Calories": 205,
     "Price": 7,
-    "Name": "'Mango'",
+    "Name": "'MANGO'",
     "Vegetarian": true
   },
   {
@@ -284,7 +284,7 @@
     "Category": "Deser",
     "Calories": 414,
     "Price": 8,
-    "Name": "'Daktyle suszone'",
+    "Name": "'DAKTYLE SUSZONE'",
     "Vegetarian": true
   },
   {
@@ -292,7 +292,7 @@
     "Category": "Deser",
     "Calories": 64,
     "Price": 4,
-    "Name": "'Brzoskwinia'",
+    "Name": "'BRZOSKWINIA'",
     "Vegetarian": true
   },
   {
@@ -300,7 +300,7 @@
     "Category": "Deser",
     "Calories": 91,
     "Price": 4,
-    "Name": "'Pomarañcza'",
+    "Name": "'POMARAÑCZA'",
     "Vegetarian": true
   },
   {
@@ -308,7 +308,7 @@
     "Category": "Deser",
     "Calories": 252,
     "Price": 5,
-    "Name": "'Figi suszone'",
+    "Name": "'FIGI SUSZONE'",
     "Vegetarian": true
   },
   {
@@ -316,7 +316,7 @@
     "Category": "Deser",
     "Calories": 82,
     "Price": 8,
-    "Name": "'Ananas'",
+    "Name": "'ANANAS'",
     "Vegetarian": true
   },
   {
@@ -324,7 +324,7 @@
     "Category": "Deser",
     "Calories": 97,
     "Price": 5,
-    "Name": "'Jogurt owocowy'",
+    "Name": "'JOGURT OWOCOWY'",
     "Vegetarian": true
   },
   {
@@ -332,7 +332,7 @@
     "Category": "Deser",
     "Calories": 233,
     "Price": 7,
-    "Name": "'Granat'",
+    "Name": "'GRANAT'",
     "Vegetarian": true
   },
   {
@@ -340,7 +340,7 @@
     "Category": "Deser",
     "Calories": 164,
     "Price": 6,
-    "Name": "'Mandarynki'",
+    "Name": "'MANDARYNKI'",
     "Vegetarian": true
   },
   {
@@ -348,7 +348,7 @@
     "Category": "Deser",
     "Calories": 104,
     "Price": 5,
-    "Name": "'Winogrona ciemne'",
+    "Name": "'WINOGRONA CIEMNE'",
     "Vegetarian": true
   },
   {
@@ -356,7 +356,7 @@
     "Category": "Deser",
     "Calories": 299,
     "Price": 7,
-    "Name": "'Rodzynki'",
+    "Name": "'RODZYNKI'",
     "Vegetarian": true
   }
 ]

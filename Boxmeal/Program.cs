@@ -107,7 +107,7 @@ namespace Boxmeal
                         {
                             W("Czy chcesz zacząć od nowa? (T/N)");
                             ReloadApk = Console.ReadLine();
-                            if (ReloadApk == "T" || ReloadApk == "t")
+                            if (ReloadApk == "t" || ReloadApk == "T")
                             {
                                 goto StartOfProgram; 
                             }
@@ -127,16 +127,15 @@ namespace Boxmeal
             else if (answerUser == "b" || answerUser == "B")
             {
                 W("Lista dostępnych skłaników:");
-                W("[lp.] [kategoria] [nazwa produktu] [kaloryczność] [cena] [vege?]");
-
-                
+  
                 MyList.WriteAllProducts();
 
                 //poniżej zakomentowany stary kod Kuby
                 //Product products = ListProducts.Item();
                 //products.WriteProduct();
+                //
                 W("");
-                W("    Załadować program ponownie? (t/n)");
+                W("  Załadować program ponownie? (t/n)");
                 ReloadApk = Console.ReadLine();
                 if (ReloadApk == "t" || ReloadApk == "T")
                 {
@@ -173,7 +172,7 @@ namespace Boxmeal
 
         static void FirstQuestion(Questions question)
         {
-            WP("Co chcesz zrobić?");
+            WP("Co chcesz zrobić? (wpisz a lub b):");
             W("a - zamówić dietę");
             W("b - wyświetlić dostępne składniki");
             WP("");
@@ -181,18 +180,16 @@ namespace Boxmeal
         static void SecondQuestion(Questions question)
         {
             WP("Proszę podać wartość kaloryczną diety:");
-            W("a - 1000 cal");
-            W("b - 1500 cal");
-            W("c - 2000 cal");
-            W("d - 2500 cal");
-            W("e - 3000 cal");
+            W("a. 1000 cal,");
+            W("b. 1500 cal,");
+            W("c. 2000 cal,");
+            W("d. 2500 cal,");
+            W("e. 3000 cal");
             WP("");
         }
         static void ThirdQuestion(Questions question)
         {
-            WP("Proszę podać czy dieta ma być wegetariańska:");
-            W("T - tak");
-            W("N - nie");
+            WP("Proszę podać czy dieta ma być wegetariańska: tak(T), nie(N)");
             WP("");
         }
         static void W(string tekst)
