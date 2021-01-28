@@ -12,15 +12,16 @@
     "Category": "Przystawka",
     "Calories": 120,
     "Price": 4,
-    "Name": " 'KAPUSTA BIA£A'",
+    "Name": " 'KAPUSTA BIA≈ÅA'",
     "Vegetarian": true
   },
+
   {
     "Id": 3,
     "Category": "Przystawka",
     "Calories": 84,
     "Price": 4,
-    "Name": " 'KIE£KI'",
+    "Name": " 'KIE≈ÅKI'",
     "Vegetarian": true
   },
   {
@@ -44,7 +45,7 @@
     "Category": "Przystawka",
     "Calories": 164,
     "Price": 4,
-    "Name": " 'ZUPA OG”RKOWA'",
+    "Name": " 'ZUPA OG√ìRKOWA'",
     "Vegetarian": true
   },
   {
@@ -60,7 +61,7 @@
     "Category": "Przystawka",
     "Calories": 49,
     "Price": 4,
-    "Name": " 'OG”REK'",
+    "Name": " 'OG√ìREK'",
     "Vegetarian": true
   },
   {
@@ -108,7 +109,7 @@
     "Category": "Przystawka",
     "Calories": 379,
     "Price": 4,
-    "Name": "'P£ATKI OWSIANE'",
+    "Name": "'P≈ÅATKI OWSIANE'",
     "Vegetarian": true
   },
   {
@@ -121,7 +122,7 @@
   },
   {
     "Id": 16,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 499,
     "Price": 6,
     "Name": "'BOCZEK'",
@@ -129,7 +130,7 @@
   },
   {
     "Id": 17,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 203,
     "Price": 6,
     "Name": "'SZYNKA'",
@@ -137,7 +138,7 @@
   },
   {
     "Id": 18,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 335,
     "Price": 9,
     "Name": "'KURCZAK'",
@@ -145,7 +146,7 @@
   },
   {
     "Id": 19,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 296,
     "Price": 8,
     "Name": "'NUGGETSY'",
@@ -153,7 +154,7 @@
   },
   {
     "Id": 20,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 208,
     "Price": 5,
     "Name": "'ZIEMNIAKI ZE SZPINAKIEM'",
@@ -161,7 +162,7 @@
   },
   {
     "Id": 21,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 336,
     "Price": 7,
     "Name": "'JAJECZNICA'",
@@ -169,7 +170,7 @@
   },
   {
     "Id": 22,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 471,
     "Price": 10,
     "Name": "'INDYK'",
@@ -177,15 +178,15 @@
   },
   {
     "Id": 23,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 500,
     "Price": 11,
-    "Name": "'KEBAB MA£Y'",
+    "Name": "'KEBAB MA≈ÅY'",
     "Vegetarian": false
   },
   {
     "Id": 24,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 214,
     "Price": 5,
     "Name": "'PUREE'",
@@ -193,7 +194,7 @@
   },
   {
     "Id": 25,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 306,
     "Price": 7,
     "Name": "'MAKARON ZE SZPINAKIEM'",
@@ -201,7 +202,7 @@
   },
   {
     "Id": 26,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 241,
     "Price": 11,
     "Name": "'KOTLET MIELONY'",
@@ -209,7 +210,7 @@
   },
   {
     "Id": 27,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 496,
     "Price": 15,
     "Name": "'SZNYCEL'",
@@ -217,7 +218,7 @@
   },
   {
     "Id": 28,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 441,
     "Price": 14,
     "Name": "'SCHAB GRILLOWANY'",
@@ -225,18 +226,18 @@
   },
   {
     "Id": 29,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 209,
     "Price": 9,
-    "Name": "'BROKU£Y Z MAS£EM'",
+    "Name": "'BROKU≈ÅY Z MAS≈ÅEM'",
     "Vegetarian": true
   },
   {
     "Id": 30,
-    "Category": "G≥Ûwne",
+    "Category": "G≈Ç√≥wne",
     "Calories": 307,
     "Price": 10,
-    "Name": "'RYØ Z WARZYWAMI'",
+    "Name": "'RY≈ª Z WARZYWAMI'",
     "Vegetarian": true
   },
   {
@@ -300,7 +301,7 @@
     "Category": "Deser",
     "Calories": 91,
     "Price": 4,
-    "Name": "'POMARA—CZA'",
+    "Name": "'POMARA≈ÉCZA'",
     "Vegetarian": true
   },
   {
