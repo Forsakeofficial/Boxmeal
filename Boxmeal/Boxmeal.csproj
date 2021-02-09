@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Backend\ListProducts.cs" />
     <Compile Include="Backend\Product.cs" />
-    <Compile Include="Backend\Questions.cs" />
+    <Compile Include="Backend\ProductManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

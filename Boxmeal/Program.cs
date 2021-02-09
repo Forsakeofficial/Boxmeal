@@ -9,189 +9,140 @@ namespace Boxmeal
 {
     class Program
     {
+        private static int calories;
+
         static void Main(string[] args)
         {
+            
             Console.WriteLine("*******************************************");
             Console.WriteLine("******************BOXMEAL******************");
             Console.WriteLine("*******************************************");
 
-            Questions question = new Questions();
+            //-------------------------------------------------------------//
+            ProductManager.CreateDataProducts();
 
-            //to poniżej jest potrzebne do wyświetlania tego jsona ze składnikami
-            ListProducts MyList = new ListProducts();
-            MyList.CreateBase();
+            bool startAnswerUser = true;
 
-            //poniżej zmienna potrzebna do tego, żeby program możnabyło cofać do początku
-            string ReloadApk = "";
-
-            //poniżej etykieta, żeby móc wykonać program ponownie
-            StartOfProgram:
-
-            FirstQuestion(question);
-
-            string answerUser = Console.ReadLine();
-
-            if (answerUser == "a" || answerUser =="A")
+            while (startAnswerUser)
             {
-                WP("Wybrałeś opcję zamówienia diety...");
-                SecondQuestion(question);
+                FirstQuestion(); //START pierwszego pytania
 
-                string answerUser_2 = Console.ReadLine();
-                int kalorie=0;
-                
-                     switch (answerUser_2)
-                    {
-                    case "a": case "A":
-                        kalorie = 1000;
-                        break;
-                    case "b": case "B":
-                        kalorie = 1500;
-                        break;
-                    case "c": case "C":
-                        kalorie = 2000;
-                        break; 
-                    case "d": case "D":
-                        kalorie = 2500;
-                        break;
-                    case "e": case "E":
-                        kalorie = 3000;
-                        break;
-                    default:
-                        Console.WriteLine("Podałeś znak inny niż a, b, c, d lub e - program nie zadziała poprawnie");
-                        goto EndOfProgram;
-                    }
-                // trzeba będzie coś zrobić, żeby tego inta "kalorie" móc wykorzystać do generowania tej diety, ale nie ogarniam za bardzo jak 
+                string userAnswer = Console.ReadLine(); //odpowiedź uzytkownika na 1 pytanie
 
-                    ThirdQuestion(question);
-                    string answerUser_3 = Console.ReadLine();
-                    bool vege = false;
-                    switch(answerUser_3)
+                if (userAnswer == "a" || userAnswer == "A")
+                {
+                    WP("Wybrałeś a - dietę");
+                    SecoundQuestion(); //START drugiego 
+
+                    string userAnswer2 = Console.ReadLine(); //odpowiedź 2
+                    switch (userAnswer2)
                     {
-                        case "t": case "T":
-                            vege = true;
+                        case "a":
+                        case "A":
+                            W("Wybrałeś/aś a czyli 1000 kalorii");
+                            calories = 1000;
+                            ThirdQuestion();
                             break;
-                        case "n": case "N":
-                            vege = false;
+
+                        case "b":
+                        case "B":
+                            W("Wybrałeś/aś b czyli 1500 kalorii");
+                            calories = 1500;
+                            ThirdQuestion();
                             break;
+
+                        case "c":
+                        case "C":
+                            W("Wybrałeś/aś c czyli 2000 kalorii");
+                            calories = 2000;
+                            ThirdQuestion();
+                            break;
+
+                        case "d":
+                        case "D":
+                            W("Wybrałeś/aś d czyli 2500 kalorii");
+                            calories = 2500;
+                            ThirdQuestion();
+                            break;
+
+                        case "e":
+                        case "E":
+                            W("Wybrałeś/aś e czyli 3000 kalorii");
+                            calories = 3000;
+                            ThirdQuestion();
+                            break;
+
                         default:
-                            Console.WriteLine("Podałeś inny znak niż n lub t - program nie zadziała poprawnie");
-                            goto EndOfProgram;
+                            Console.WriteLine("Podałeś nieprawidłową odpowiedź");
+                            break;
                     }
-                // trzeba będzie potem użyć tej zmiennej "vege" do określenia rodzaju diety
-
-                // poniżej wydruk kontrolny (wymagany w zadaniu)
-                        if (vege == true)
-                        {
-                            Console.WriteLine("Wybrałeś opcję: " + kalorie + " cal, WEGETARIAŃSKA");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Wybrałeś opcję: " + kalorie + " cal, NIEWEGETARIAŃSKA");
-                        }
-                        W("");
-                        W("Czy potwierdzasz swój wybór? (t/n)");
-                        string answerUser_4 = Console.ReadLine();
-                        if (answerUser_4 == "t" || answerUser_4 == "T")
-                        {
-     //!!!!!!!!!!!TUTAJ TRZEBA UMIEŚCIĆ PROGRAM/FUNKCJĘ/METODĘ/WHATEVER - COŚ CO BĘDZIE USTALAĆ NAM TĘ DIETĘ
-                            W("Kliknij enter, aby wyświetlić swój plan diety");
-                            Console.ReadLine();
-
-
-
-
-
-    //!!!!!!!!!!!!to w tym przedziale (nad tym komentarzem, a pod poprzednim)
-                        }
-                        else if (answerUser_4 == "n" || answerUser_4 == "N")
-                        {
-                            W("Czy chcesz zacząć od nowa? (T/N)");
-                            ReloadApk = Console.ReadLine();
-                            if (ReloadApk == "t" || ReloadApk == "T")
-                            {
-                                goto StartOfProgram; 
-                            }
-                            else
-                            {
-                                goto EndOfProgram; 
-                            }
-                        }
-                        else
-                        {
-                            W("Podałeś znak inny niż t lub n - program nie zadziała poprawnie");
-                            goto EndOfProgram;
-                        }
-                    
-                
-            }
-            else if (answerUser == "b" || answerUser == "B")
-            {
-                W("Lista dostępnych skłaników:");
-  
-                MyList.WriteAllProducts();
-
-                //poniżej zakomentowany stary kod Kuby
-                //Product products = ListProducts.Item();
-                //products.WriteProduct();
-                //
-                W("");
-                W("  Załadować program ponownie? (t/n)");
-                ReloadApk = Console.ReadLine();
-                if (ReloadApk == "t" || ReloadApk == "T")
-                {
-                    goto StartOfProgram;
                 }
-                else if (ReloadApk == "n" || ReloadApk == "N")
+                else if (userAnswer == "b" || userAnswer == "B")
                 {
-                    goto EndOfProgram;
+                    W("Lista dostępnych składników:");
+                    ProductManager.WriteProducts();
+                }
+                else if(userAnswer == "c"||userAnswer =="C")
+                {
+                    startAnswerUser = false;
                 }
                 else
                 {
-                    W("Podałeś inny znak niż t lub n - program się wywali");
-                    goto EndOfProgram;
+                    W("Nie ma takiej odpowiedzi lub po prostu wpisałeś jakieś głupoty");
                 }
 
+
+                Console.ReadLine();
+            }
+        }
+
+
+
+
+
+
+
+        static void FirstQuestion()
+        {
+            WP("Co chcesz zrobić?");
+            W("a - zamówić dietę");
+            W("b - wyświetlić dostępne składniki");
+            W("c - zamknąć program");
+            WP("");
+        }
+
+        static void SecoundQuestion()
+        {
+            WP("Proszę podać wartość kaloryczną diety:");
+            W("a. - 1000 cal");
+            W("b. - 1500 cal");
+            W("c. - 2000 cal");
+            W("d. - 2500 cal");
+            W("e. - 3000 cal");
+            WP("");
+        }
+
+        static void ThirdQuestion()
+        {
+            WP("Proszę podać czy dieta ma być wegetariańska:");
+            W("T - tak");
+            W("N - nie");
+            WP("");
+            string userAnswer = Console.ReadLine();
+            if (userAnswer == "T" || userAnswer == "t")
+            {
+                ProductManager.WriteWeeklyDiet(calories, true);
+            }
+            else if (userAnswer == "N" || userAnswer == "n")
+            {
+                ProductManager.WriteWeeklyDiet(calories);
             }
             else
             {
-                W("Podałeś znak inny niż a lub b - program nie zadziała poprawnie");
-                goto EndOfProgram;
+                W("Nie ma takiej odpowiedzi lub po prostu wpisałeś jakieś głupoty");
             }
-
-
-            //poniżej dałem etykietkę EndOfProgram, żeby dało się zakończyć program w dowolnym miejscu robiąc "goto EndOfProgram"
-            EndOfProgram:
-
-            W("Dziękujemy za skorzystanie z naszego programu");
-            Console.ReadLine();
-        
         }
 
-
-
-
-        static void FirstQuestion(Questions question)
-        {
-            WP("Co chcesz zrobić? (wpisz a lub b):");
-            W("a - zamówić dietę");
-            W("b - wyświetlić dostępne składniki");
-            WP("");
-        }
-        static void SecondQuestion(Questions question)
-        {
-            WP("Proszę podać wartość kaloryczną diety:");
-            W("a. 1000 cal,");
-            W("b. 1500 cal,");
-            W("c. 2000 cal,");
-            W("d. 2500 cal,");
-            W("e. 3000 cal");
-            WP("");
-        }
-        static void ThirdQuestion(Questions question)
-        {
-            WP("Proszę podać czy dieta ma być wegetariańska: tak(T), nie(N)");
-            WP("");
-        }
         static void W(string tekst)
         {
             Console.WriteLine(tekst);
@@ -202,5 +153,7 @@ namespace Boxmeal
             Console.WriteLine();
             Console.WriteLine(tekst);
         }
+
     }
 }
+

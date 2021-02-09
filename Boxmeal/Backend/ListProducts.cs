@@ -25,12 +25,6 @@ namespace Boxmeal.Backend
             return product;
         }
 
-
-
-        // to poniżej skopiowałem od wykładowcy (żeby korzystać z jsona do przechowywania składników), pozmieniałem nazwy na właściwe do naszego boxmeala, 
-        // ale chyba coś tu jeszcze trzeba poprawić, bo niby działa, ale nie wiem co dalej z tym
-
-
         public List<Product> AllProducts { get; set; }
 
         public void CreateBase()

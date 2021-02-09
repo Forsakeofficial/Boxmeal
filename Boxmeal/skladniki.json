@@ -251,7 +251,7 @@
   {
     "Id": 32,
     "Category": "Deser",
-    "Calories": 522,
+    "Calories": 498,
     "Price": 5,
     "Name": "'BATONIK CANDY BAR'",
     "Vegetarian": true
@@ -259,7 +259,7 @@
   {
     "Id": 33,
     "Category": "Deser",
-    "Calories": 502,
+    "Calories": 500,
     "Price": 7,
     "Name": "'CIASTKA'",
     "Vegetarian": true
@@ -334,6 +334,198 @@
     "Calories": 233,
     "Price": 7,
     "Name": "'GRANAT'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 43,
+    "Category": "Deser",
+    "Calories": 164,
+    "Price": 6,
+    "Name": "'MANDARYNKI'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 44,
+    "Category": "Deser",
+    "Calories": 104,
+    "Price": 5,
+    "Name": "'WINOGRONA CIEMNE'",
+    "Vegetarian": true
+  },
+  {
+    "Id": 45,
+    "Category": "Deser",
+    "Calories": 299,
+    "Price": 7,
+    "Name": "'RODZYNKI'",
     "Vegetarian": true
   },
   {

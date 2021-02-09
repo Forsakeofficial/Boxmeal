@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 namespace Boxmeal.Backend
 {
     public class Product
-    { 
+    {
+        public Product()
+        {
+            ListProduct = new List<Product>();
+        }
+
+        public List<Product> ListProduct { get; set; }
+
         public int Id { get; set; }
         public string Category { get; set; }
         public int Calories { get; set; }
         public int Price { get; set; }
         public string Name { get; set; }
         public bool Vegetarian { get; set; }
-
-        //zmieniłem Calories i Price na int - bo potrzebujemy ich potem do liczenia, a wyświetlanie z cal lub PLN to można łatwo zrobić z intami też
-
 
         public void WriteProduct()
         {
