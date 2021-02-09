@@ -361,195 +361,99 @@
     "Vegetarian": true
   },
   {
-    "Id": 43,
+    "Id": 46,
     "Category": "Deser",
-    "Calories": 164,
+    "Calories": 100,
     "Price": 6,
-    "Name": "'MANDARYNKI'",
+    "Name": "'TEST1'",
     "Vegetarian": true
   },
   {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
+    "Id": 47,
+    "Category": "Główne",
+    "Calories": 100,
     "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
+    "Name": "'TEST2'",
     "Vegetarian": true
   },
   {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
+    "Id": 48,
+    "Category": "Przystawka",
+    "Calories": 100,
     "Price": 7,
-    "Name": "'RODZYNKI'",
+    "Name": "'TEST3'",
     "Vegetarian": true
   },
   {
-    "Id": 43,
+    "Id": 49,
     "Category": "Deser",
-    "Calories": 164,
+    "Calories": 330,
     "Price": 6,
-    "Name": "'MANDARYNKI'",
-    "Vegetarian": true
+    "Name": "'TEST4'",
+    "Vegetarian": false
   },
   {
-    "Id": 44,
+    "Id": 50,
     "Category": "Deser",
-    "Calories": 104,
+    "Calories": 330,
     "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
+    "Name": "'TEST5'",
     "Vegetarian": true
   },
   {
-    "Id": 45,
+    "Id": 51,
     "Category": "Deser",
-    "Calories": 299,
+    "Calories": 100,
     "Price": 7,
-    "Name": "'RODZYNKI'",
-    "Vegetarian": true
+    "Name": "'TEST6'",
+    "Vegetarian": false
   },
   {
-    "Id": 43,
+    "Id": 52,
     "Category": "Deser",
-    "Calories": 164,
+    "Calories": 100,
     "Price": 6,
-    "Name": "'MANDARYNKI'",
+    "Name": "'TEST7'",
     "Vegetarian": true
   },
   {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
+    "Id": 53,
+    "Category": "Przystawka",
+    "Calories": 100,
     "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
+    "Name": "'TEST8'",
+    "Vegetarian": false
   },
   {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
+    "Id": 54,
+    "Category": "Przystawka",
+    "Calories": 100,
     "Price": 7,
-    "Name": "'RODZYNKI'",
+    "Name": "'TEST9'",
     "Vegetarian": true
   },
   {
-    "Id": 43,
-    "Category": "Deser",
-    "Calories": 164,
+    "Id": 55,
+    "Category": "Przystawka",
+    "Calories": 330,
     "Price": 6,
-    "Name": "'MANDARYNKI'",
+    "Name": "'TEST10'",
     "Vegetarian": true
   },
   {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
+    "Id": 56,
+    "Category": "Przystawka",
+    "Calories": 330,
     "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
+    "Name": "'TEST11'",
+    "Vegetarian": false
   },
   {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
+    "Id": 57,
+    "Category": "Główne",
+    "Calories": 100,
     "Price": 7,
-    "Name": "'RODZYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 43,
-    "Category": "Deser",
-    "Calories": 164,
-    "Price": 6,
-    "Name": "'MANDARYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
-    "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
-    "Price": 7,
-    "Name": "'RODZYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 43,
-    "Category": "Deser",
-    "Calories": 164,
-    "Price": 6,
-    "Name": "'MANDARYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
-    "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
-    "Price": 7,
-    "Name": "'RODZYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 43,
-    "Category": "Deser",
-    "Calories": 164,
-    "Price": 6,
-    "Name": "'MANDARYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
-    "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
-    "Price": 7,
-    "Name": "'RODZYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 43,
-    "Category": "Deser",
-    "Calories": 164,
-    "Price": 6,
-    "Name": "'MANDARYNKI'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 44,
-    "Category": "Deser",
-    "Calories": 104,
-    "Price": 5,
-    "Name": "'WINOGRONA CIEMNE'",
-    "Vegetarian": true
-  },
-  {
-    "Id": 45,
-    "Category": "Deser",
-    "Calories": 299,
-    "Price": 7,
-    "Name": "'RODZYNKI'",
+    "Name": "'TEST12'",
     "Vegetarian": true
   }
 ]

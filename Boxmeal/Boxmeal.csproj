@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Backend\ListProducts.cs" />
     <Compile Include="Backend\Product.cs" />
     <Compile Include="Backend\ProductManager.cs" />
     <Compile Include="Program.cs" />
