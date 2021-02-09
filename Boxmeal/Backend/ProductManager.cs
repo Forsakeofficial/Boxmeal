@@ -10,11 +10,11 @@ namespace Boxmeal.Backend
 {
     public class ProductManager
     {
-        public static List<Product> products { get; set; } //BAZA PRODUKTÓW
+        public static List<Product> Products { get; set; } //BAZA PRODUKTÓW
 
         public static List<Product> GetProducts() //ZWRACA PRODUKTY
         {
-            return products;
+            return Products;
         }
 
         public static void WriteProducts() //PRODUKTY
@@ -31,25 +31,25 @@ namespace Boxmeal.Backend
 
             string JsonFile = File.ReadAllText(ToFilePatch);
 
-            products = JsonConvert.DeserializeObject<List<Product>>(JsonFile);
+            Products = JsonConvert.DeserializeObject<List<Product>>(JsonFile);
         }
 
 
-        private static Random rnd = new Random();
+        private static readonly Random rnd = new Random();
         public static Product GetRandomProduct() //LOSOWY PRODUKT
         {
-            int r = rnd.Next(products.Count);
+            int r = rnd.Next(Products.Count);
 
-            return products[r];
+            return Products[r];
         }
 
         public static Product GetRandomProduct(int maxKcal, String category, bool vege) //LOSOWY PRODUKT
         {
             //Console.WriteLine(maxKcal);
-            int r = rnd.Next(products.Count);
+            int r = rnd.Next(Products.Count);
             Product product = GetRandomProduct();
 
-            int range = 65;
+            int range = 100;
 
             while (true)
             {
