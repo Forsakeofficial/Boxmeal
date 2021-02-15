@@ -107,7 +107,7 @@
   {
     "Id": 14,
     "Category": "Przystawka",
-    "Calories": 379,
+    "Calories": 280,
     "Price": 4,
     "Name": "'PŁATKI OWSIANE'",
     "Vegetarian": true
@@ -139,7 +139,7 @@
   {
     "Id": 18,
     "Category": "Główne",
-    "Calories": 335,
+    "Calories": 356,
     "Price": 9,
     "Name": "'KURCZAK'",
     "Vegetarian": false
@@ -155,7 +155,7 @@
   {
     "Id": 20,
     "Category": "Główne",
-    "Calories": 208,
+    "Calories": 190,
     "Price": 5,
     "Name": "'ZIEMNIAKI ZE SZPINAKIEM'",
     "Vegetarian": true
@@ -163,7 +163,7 @@
   {
     "Id": 21,
     "Category": "Główne",
-    "Calories": 336,
+    "Calories": 185,
     "Price": 7,
     "Name": "'JAJECZNICA'",
     "Vegetarian": true
@@ -187,7 +187,7 @@
   {
     "Id": 24,
     "Category": "Główne",
-    "Calories": 214,
+    "Calories": 197,
     "Price": 5,
     "Name": "'PUREE'",
     "Vegetarian": true
@@ -227,7 +227,7 @@
   {
     "Id": 29,
     "Category": "Główne",
-    "Calories": 209,
+    "Calories": 168,
     "Price": 9,
     "Name": "'BROKUŁY Z MASŁEM'",
     "Vegetarian": true
