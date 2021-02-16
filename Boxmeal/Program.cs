@@ -23,7 +23,7 @@ namespace Boxmeal
 
             bool startAnswerUser = true;
 
-            while (startAnswerUser)
+            while (startAnswerUser == true)
             {
                 FirstQuestion(); //START pierwszego pytania
 

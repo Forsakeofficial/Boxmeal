@@ -49,7 +49,7 @@ namespace Boxmeal.Backend
             int r = rnd.Next(Products.Count);
             Product product = GetRandomProduct();
 
-            int range = 100;
+            int range = 70;
 
             while (true)
             {
